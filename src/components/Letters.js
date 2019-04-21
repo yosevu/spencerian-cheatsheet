@@ -14,12 +14,12 @@ const StyledImage = styled.img`
 `;
 
 const renderLetters = paths => {
-  return paths.map(path => {
+  return Object.keys(paths).map(key => {
     return (
       <li>
         <StyledImage
-          alt="Spencerian script majuscule and miniscule A"
-          src={path}
+          alt={`Majuscule "${key.toUpperCase()}" and miniscule "${key}" in Spencerian Script`}
+          src={paths[key]}
         />
       </li>
     );
@@ -27,11 +27,7 @@ const renderLetters = paths => {
 };
 
 const Letters = ({ letterPaths }) => {
-  return (
-    <StyledUL>
-      {renderLetters(letterPaths)}
-    </StyledUL>
-  );
+  return <StyledUL>{renderLetters(letterPaths)}</StyledUL>;
 };
 
 export default Letters;

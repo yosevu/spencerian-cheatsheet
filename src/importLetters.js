@@ -25,7 +25,7 @@ import x from './images/letters/spencerian-guide-x.png';
 import y from './images/letters/spencerian-guide-y.png';
 import z from './images/letters/spencerian-guide-z.png';
 
-export default [
+export default {
   a,
   b,
   c,
@@ -52,4 +52,4 @@ export default [
   x,
   y,
   z,
-];
+};
