@@ -10,15 +10,16 @@ const StyledUL = styled.ul`
 `;
 
 const StyledImage = styled.img`
-  height: 10rem;
+  height: ${props => `${props.height}rem`};
 `;
 
-const renderLetters = paths => {
+const renderLetters = (height, paths) => {
   return Object.keys(paths).map(key => {
     return (
-      <li>
+      <li key={key}>
         <StyledImage
           alt={`Majuscule "${key.toUpperCase()}" and miniscule "${key}" in Spencerian Script`}
+          height={height}
           src={paths[key]}
         />
       </li>
@@ -26,8 +27,8 @@ const renderLetters = paths => {
   });
 };
 
-const Letters = ({ letterPaths }) => {
-  return <StyledUL>{renderLetters(letterPaths)}</StyledUL>;
+const Letters = ({ height, letterPaths }) => {
+  return <StyledUL>{renderLetters(height, letterPaths)}</StyledUL>;
 };
 
 export default Letters;
