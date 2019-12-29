@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "f99d3450df1f2406670a",
+    "revision": "c4b2c0540e65dea870ee",
     "url": "/spencerian-cheatsheet/static/css/main.1890a1bb.chunk.css"
   },
   {
-    "revision": "f99d3450df1f2406670a",
-    "url": "/spencerian-cheatsheet/static/js/main.5b0ab97d.chunk.js"
+    "revision": "c4b2c0540e65dea870ee",
+    "url": "/spencerian-cheatsheet/static/js/main.b2ebdc27.chunk.js"
   },
   {
-    "revision": "77a745546128b595c56f",
-    "url": "/spencerian-cheatsheet/static/js/runtime~main.1cd5d85d.js"
+    "revision": "91c199eed958e86d0a3d",
+    "url": "/spencerian-cheatsheet/static/js/runtime~main.b481eda7.js"
   },
   {
-    "revision": "0db2cd4f976ec9e1cc81",
-    "url": "/spencerian-cheatsheet/static/js/2.6b3475dc.chunk.js"
+    "revision": "6a7d2a926aa9790e33f3",
+    "url": "/spencerian-cheatsheet/static/js/2.7c9b33d5.chunk.js"
   },
   {
     "revision": "84790937857c802b14d4a3c94354efae",
@@ -120,7 +120,7 @@ self.__precacheManifest = [
     "url": "/spencerian-cheatsheet/static/media/spencerian-guide-z.b76cee4b.png"
   },
   {
-    "revision": "ced3df7c75a6e70f52d99aeab009f6e3",
+    "revision": "190c9edc87dffd4f79c4ee404e6495dc",
     "url": "/spencerian-cheatsheet/index.html"
   }
 ];

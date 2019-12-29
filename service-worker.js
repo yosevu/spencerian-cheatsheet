@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/spencerian-cheatsheet/precache-manifest.d82be661b60aae8ee2d843459ada10f5.js"
+  "/spencerian-cheatsheet/precache-manifest.55670806219da3d3180e8c56e41214ee.js"
 );
 
 workbox.clientsClaim();
