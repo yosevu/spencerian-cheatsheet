@@ -9,7 +9,7 @@
     "react-scripts": "2.1.8",
     "styled-components": "^4.2.0"
   },
-  "homepage": "https://yosevukilonzo.github.io/spencerian-cheatsheet",
+  "homepage": "https://yosevu.github.io/spencerian-cheatsheet",
   "scripts": {
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
